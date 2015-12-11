@@ -1,0 +1,3193 @@
+{
+  "host": "twitter.com",
+  "port": 443,
+  "protocol": "HTTP",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1449565224262,
+  "testTime": 1449565510709,
+  "engineVersion": "1.20.28",
+  "criteriaVersion": "2009k",
+  "endpoints": [
+    {
+      "ipAddress": "199.59.150.39",
+      "serverName": "r-199-59-150-39.twttr.com",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 71785,
+      "eta": 144,
+      "delegation": 3,
+      "details": {
+        "hostStartTime": 1449565224262,
+        "key": {
+          "size": 2048,
+          "alg": "RSA",
+          "debianFlaw": false,
+          "strength": 2048
+        },
+        "cert": {
+          "subject": "CN\u003dtwitter.com,OU\u003dTwitter Security,O\u003dTwitter, Inc.,STREET\u003d1355 Market St,L\u003dSan Francisco,ST\u003dCalifornia,2.5.4.17\u003d#0c0a39343130332d31333037,C\u003dUS,2.5.4.5\u003d#130734333337343436,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#0c0844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+          "commonNames": [
+            "twitter.com"
+          ],
+          "altNames": [
+            "twitter.com",
+            "www.twitter.com"
+          ],
+          "notBefore": 1410307200000,
+          "notAfter": 1462838399000,
+          "issuerSubject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+          "issuerLabel": "Symantec Class 3 EV SSL CA - G3",
+          "sigAlg": "SHA256withRSA",
+          "revocationInfo": 3,
+          "crlURIs": [
+            "http://sr.symcb.com/sr.crl"
+          ],
+          "ocspURIs": [
+            "http://sr.symcd.com"
+          ],
+          "revocationStatus": 2,
+          "crlRevocationStatus": 2,
+          "ocspRevocationStatus": 2,
+          "sgc": 0,
+          "validationType": "E",
+          "issues": 0,
+          "sct": false,
+          "sha1Hash": "add53f6680fe66e383cbac3e60922e3b4c412bed",
+          "pinSha256": "IOxdCvvGwOLhlVbFNSs8YHim7ZVVwvqGgkBP21Up060\u003d"
+        },
+        "chain": {
+          "certs": [
+            {
+              "subject": "CN\u003dtwitter.com,OU\u003dTwitter Security,O\u003dTwitter, Inc.,STREET\u003d1355 Market St,L\u003dSan Francisco,ST\u003dCalifornia,2.5.4.17\u003d#0c0a39343130332d31333037,C\u003dUS,2.5.4.5\u003d#130734333337343436,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#0c0844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+              "label": "twitter.com",
+              "notBefore": 1410307200000,
+              "notAfter": 1462838399000,
+              "issuerSubject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+              "issuerLabel": "Symantec Class 3 EV SSL CA - G3",
+              "sigAlg": "SHA256withRSA",
+              "issues": 0,
+              "keyAlg": "RSA",
+              "keySize": 2048,
+              "keyStrength": 2048,
+              "revocationStatus": 2,
+              "crlRevocationStatus": 2,
+              "ocspRevocationStatus": 2,
+              "sha1Hash": "add53f6680fe66e383cbac3e60922e3b4c412bed",
+              "pinSha256": "IOxdCvvGwOLhlVbFNSs8YHim7ZVVwvqGgkBP21Up060\u003d",
+              "raw": "-----BEGIN CERTIFICATE-----\nMIIFjTCCBHWgAwIBAgIQGshet67DUTzYDYU4Xs/SCDANBgkqhkiG9w0BAQsFADB3MQswCQYDVQQG\r\nEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRy\r\ndXN0IE5ldHdvcmsxKDAmBgNVBAMTH1N5bWFudGVjIENsYXNzIDMgRVYgU1NMIENBIC0gRzMwHhcN\r\nMTQwOTEwMDAwMDAwWhcNMTYwNTA5MjM1OTU5WjCCARIxEzARBgsrBgEEAYI3PAIBAxMCVVMxGTAX\r\nBgsrBgEEAYI3PAIBAgwIRGVsYXdhcmUxHTAbBgNVBA8TFFByaXZhdGUgT3JnYW5pemF0aW9uMRAw\r\nDgYDVQQFEwc0MzM3NDQ2MQswCQYDVQQGEwJVUzETMBEGA1UEEQwKOTQxMDMtMTMwNzETMBEGA1UE\r\nCAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzEXMBUGA1UECQwOMTM1NSBNYXJr\r\nZXQgU3QxFjAUBgNVBAoMDVR3aXR0ZXIsIEluYy4xGTAXBgNVBAsMEFR3aXR0ZXIgU2VjdXJpdHkx\r\nFDASBgNVBAMMC3R3aXR0ZXIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA46xZ\r\nNAfcEfgcyrMPk0SKVDR2kGrAIgC+lZraWDxsODGioh87ZOKd4PXCqweQW3z++YiMap1pO+AjZbcR\r\n1uiI1j5ti+3K6lgL/k2/KpXKuyG7ztbiEAIRIWgm95J+nKOAsYLX5aaghkdCGsZbBNnDtbKbONSh\r\nbTu92AXwUZu9lXd/6QKOYKN6ZSBSI9uNASckwgBmDRRms1IrzGtbpUQv4kBt2iGhklpXEtNHAe/p\r\n36/GkYwhr3dlEzYcY3otBeZjxQvYOems8jv/ncWnRgpuGmYQHkrnuseJeR+u8fOEA8rnUIoZY788\r\nIBB4xfRTPH1eDa+WcImSuX+aGQz2eGqPcwIDAQABo4IBdjCCAXIwJwYDVR0RBCAwHoILdHdpdHRl\r\nci5jb22CD3d3dy50d2l0dGVyLmNvbTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUE\r\nFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwZgYDVR0gBF8wXTBbBgtghkgBhvhFAQcXBjBMMCMGCCsG\r\nAQUFBwIBFhdodHRwczovL2Quc3ltY2IuY29tL2NwczAlBggrBgEFBQcCAjAZGhdodHRwczovL2Qu\r\nc3ltY2IuY29tL3JwYTAfBgNVHSMEGDAWgBQBWavn3ToLWaZkY9bPIAdX1ZHnajArBgNVHR8EJDAi\r\nMCCgHqAchhpodHRwOi8vc3Iuc3ltY2IuY29tL3NyLmNybDBXBggrBgEFBQcBAQRLMEkwHwYIKwYB\r\nBQUHMAGGE2h0dHA6Ly9zci5zeW1jZC5jb20wJgYIKwYBBQUHMAKGGmh0dHA6Ly9zci5zeW1jYi5j\r\nb20vc3IuY3J0MA0GCSqGSIb3DQEBCwUAA4IBAQDRU2jp1iDQVnoQgLjpfgDJntU1SqLSoBaK4vvr\r\nloh3wm419Kepqtw1e8Z9Xjz2yVug0ViufZbnVAJcaRtWkiatBizBWv9Z84qMlDINGkLRbrwcvajG\r\nCAEbcxeTKDCuzk1OLUu/Iq+aYTJ6qGglGTxt+2fMKT9b9dGvTL9no2DE3bD7g1VttSypfTStsAjH\r\nLPDLTNgrefTp2n9uwN5VfNbWR8/EkO9PvuvJPQVxa17HNo1PDDxHg6URiCL4RuD4mxr+6aLfkIEQ\r\ncfOXnLdpYHcg1oeF7lp30pLs2V0fMTs64ls10ZI220TUedlsAySHXcOGxhDi6mV8z7jvwjECVXIS\r\n-----END CERTIFICATE-----\n"
+            },
+            {
+              "subject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+              "label": "Symantec Class 3 EV SSL CA - G3",
+              "notBefore": 1383177600000,
+              "notAfter": 1698710399000,
+              "issuerSubject": "CN\u003dVeriSign Class 3 Public Primary Certification Authority - G5,OU\u003d(c) 2006 VeriSign, Inc. - For authorized use only,OU\u003dVeriSign Trust Network,O\u003dVeriSign, Inc.,C\u003dUS",
+              "issuerLabel": "VeriSign Class 3 Public Primary Certification Authority - G5",
+              "sigAlg": "SHA256withRSA",
+              "issues": 0,
+              "keyAlg": "RSA",
+              "keySize": 2048,
+              "keyStrength": 2048,
+              "revocationStatus": 2,
+              "crlRevocationStatus": 2,
+              "ocspRevocationStatus": 2,
+              "sha1Hash": "e3fc0ad84f2f5a83ed6f86f567f8b14b40dcbf12",
+              "pinSha256": "gMxWOrX4PMQesK9qFNbYBxjBfjUvlkn/vN1n+L9lE5E\u003d",
+              "raw": "-----BEGIN CERTIFICATE-----\nMIIFKzCCBBOgAwIBAgIQfuFKb2/v8tN/P61lTTratDANBgkqhkiG9w0BAQsFADCByjELMAkGA1UE\r\nBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBO\r\nZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVk\r\nIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRp\r\nZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMTMxMDMxMDAwMDAwWhcNMjMxMDMwMjM1OTU5WjB3\r\nMQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5\r\nbWFudGVjIFRydXN0IE5ldHdvcmsxKDAmBgNVBAMTH1N5bWFudGVjIENsYXNzIDMgRVYgU1NMIENB\r\nIC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYoWV0I+grZOIy1zM3PY71NBZI\r\n3U9/hxz4RCMTjvsR2ERaGHGOYBYmkpv9FwvhcXBC/r/6HMCqo6e1cej/GIP23xAKE2LIPZyn3i4/\r\nDNkd5y77Ks7Imn+Hv9hMBBUyydHMlXGgTihPhNk1++OGb5RT5nKKY2cuvmn2926OnGAE6yn6xEdC\r\n0niY4+wLpZLct5q9gGQrOHw4CVtm9i2VeoayNC6FnpAOX7ddpFFyRnATv2fytqdNFB5suVPuIxpO\r\njUhVQ0GxiXVqQCjFfd3SbtICGS97JJRL6/EaqZvjI5rq+jOrCiy39GAI3Z8czd0tAWaAr7MvKR0j\r\nuIrhoXAHDDQPAgMBAAGjggFdMIIBWTAvBggrBgEFBQcBAQQjMCEwHwYIKwYBBQUHMAGGE2h0dHA6\r\nLy9zMi5zeW1jYi5jb20wEgYDVR0TAQH/BAgwBgEB/wIBADBlBgNVHSAEXjBcMFoGBFUdIAAwUjAm\r\nBggrBgEFBQcCARYaaHR0cDovL3d3dy5zeW1hdXRoLmNvbS9jcHMwKAYIKwYBBQUHAgIwHBoaaHR0\r\ncDovL3d3dy5zeW1hdXRoLmNvbS9ycGEwMAYDVR0fBCkwJzAloCOgIYYfaHR0cDovL3MxLnN5bWNi\r\nLmNvbS9wY2EzLWc1LmNybDAOBgNVHQ8BAf8EBAMCAQYwKQYDVR0RBCIwIKQeMBwxGjAYBgNVBAMT\r\nEVN5bWFudGVjUEtJLTEtNTMzMB0GA1UdDgQWBBQBWavn3ToLWaZkY9bPIAdX1ZHnajAfBgNVHSME\r\nGDAWgBR/02Wnwt3su/AwCfNDOfoCrzMxMzANBgkqhkiG9w0BAQsFAAOCAQEAQgFVe9AWGl1Y6Lub\r\nqE3X89frE5SG1n8hC0e8V5uSXU8FnzikEHzPg74GQ0aNCLxq1xCm+quvL2GoY/Jl339MiBKIT7Np\r\n2f8nwAqXkY9W+4nEqLuSLRtzsMarNvSWbCAI7woeZiRFT2cAQMgHVHQzO6atuyOfZu2iRHA0+w7q\r\nAf3PeHTfp61Vt19N9tY/4IbOJMdCqRMURDVLtt/JYKwMf9mTIUvunORJApjTYHtcvNUwLwfORELE\r\nC5n+5p/8sHiGUW3RLJ3GlvuFgrsEL/digO9i2n/2DqyQuFa9eT/ygG6j2bkPXToHHZGThkspTOHc\r\nteHgM52zyzaRS/6htO7w+Q\u003d\u003d\r\n-----END CERTIFICATE-----\n"
+            }
+          ],
+          "issues": 0
+        },
+        "protocols": [
+          {
+            "id": 769,
+            "name": "TLS",
+            "version": "1.0"
+          },
+          {
+            "id": 770,
+            "name": "TLS",
+            "version": "1.1"
+          },
+          {
+            "id": 771,
+            "name": "TLS",
+            "version": "1.2"
+          }
+        ],
+        "suites": {
+          "list": [
+            {
+              "id": 49199,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49191,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49171,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49200,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49192,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49172,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 156,
+              "name": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+              "cipherStrength": 128
+            },
+            {
+              "id": 60,
+              "name": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+              "cipherStrength": 128
+            },
+            {
+              "id": 47,
+              "name": "TLS_RSA_WITH_AES_128_CBC_SHA",
+              "cipherStrength": 128
+            },
+            {
+              "id": 157,
+              "name": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+              "cipherStrength": 256
+            },
+            {
+              "id": 61,
+              "name": "TLS_RSA_WITH_AES_256_CBC_SHA256",
+              "cipherStrength": 256
+            },
+            {
+              "id": 53,
+              "name": "TLS_RSA_WITH_AES_256_CBC_SHA",
+              "cipherStrength": 256
+            },
+            {
+              "id": 49170,
+              "name": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+              "cipherStrength": 168,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 10,
+              "name": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+              "cipherStrength": 168
+            }
+          ],
+          "preference": true
+        },
+        "serverSignature": "tsa_a",
+        "prefixDelegation": true,
+        "nonPrefixDelegation": true,
+        "vulnBeast": true,
+        "renegSupport": 6,
+        "stsStatus": "present",
+        "stsResponseHeader": "max-age\u003d631138519",
+        "stsMaxAge": 631138519,
+        "stsSubdomains": false,
+        "stsPreload": false,
+        "sessionResumption": 0,
+        "compressionMethods": 0,
+        "supportsNpn": true,
+        "npnProtocols": "h2 spdy/3.1 http/1.1",
+        "sessionTickets": 1,
+        "ocspStapling": false,
+        "sniRequired": false,
+        "httpStatusCode": 200,
+        "supportsRc4": false,
+        "rc4WithModern": false,
+        "rc4Only": false,
+        "forwardSecrecy": 2,
+        "sims": {
+          "results": [
+            {
+              "client": {
+                "id": 56,
+                "name": "Android",
+                "version": "2.3.7",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 58,
+                "name": "Android",
+                "version": "4.0.4",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 59,
+                "name": "Android",
+                "version": "4.1.1",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 60,
+                "name": "Android",
+                "version": "4.2.2",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 61,
+                "name": "Android",
+                "version": "4.3",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 62,
+                "name": "Android",
+                "version": "4.4.2",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 88,
+                "name": "Android",
+                "version": "5.0.0",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 94,
+                "name": "Baidu",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 91,
+                "name": "BingPreview",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 115,
+                "name": "Chrome",
+                "platform": "OS X",
+                "version": "45",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 84,
+                "name": "Firefox",
+                "platform": "Win 7",
+                "version": "31.3.0 ESR",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 116,
+                "name": "Firefox",
+                "platform": "OS X",
+                "version": "41",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 97,
+                "name": "Googlebot",
+                "version": "Feb 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 100,
+                "name": "IE",
+                "platform": "XP",
+                "version": "6",
+                "isReference": false
+              },
+              "errorCode": 1,
+              "attempts": 1
+            },
+            {
+              "client": {
+                "id": 19,
+                "name": "IE",
+                "platform": "Vista",
+                "version": "7",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 101,
+                "name": "IE",
+                "platform": "XP",
+                "version": "8",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 10
+            },
+            {
+              "client": {
+                "id": 113,
+                "name": "IE",
+                "platform": "Win 7",
+                "version": "8-10",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 102,
+                "name": "IE",
+                "platform": "Win 7",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 104,
+                "name": "IE",
+                "platform": "Win 8.1",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 64,
+                "name": "IE",
+                "platform": "Win Phone 8.0",
+                "version": "10",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 65,
+                "name": "IE",
+                "platform": "Win Phone 8.1",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 106,
+                "name": "IE",
+                "platform": "Win Phone 8.1 Update",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 107,
+                "name": "IE",
+                "platform": "Win 10",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 110,
+                "name": "Edge",
+                "platform": "Win 10",
+                "version": "",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 25,
+                "name": "Java",
+                "version": "6u45",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 26,
+                "name": "Java",
+                "version": "7u25",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 86,
+                "name": "Java",
+                "version": "8u31",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 27,
+                "name": "OpenSSL",
+                "version": "0.9.8y",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 99,
+                "name": "OpenSSL",
+                "version": "1.0.1l",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 98,
+                "name": "OpenSSL",
+                "version": "1.0.2",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 32,
+                "name": "Safari",
+                "platform": "OS X 10.6.8",
+                "version": "5.1.9",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 33,
+                "name": "Safari",
+                "platform": "iOS 6.0.1",
+                "version": "6",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 34,
+                "name": "Safari",
+                "platform": "OS X 10.8.4",
+                "version": "6.0.4",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 63,
+                "name": "Safari",
+                "platform": "iOS 7.1",
+                "version": "7",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 35,
+                "name": "Safari",
+                "platform": "OS X 10.9",
+                "version": "7",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 85,
+                "name": "Safari",
+                "platform": "iOS 8.4",
+                "version": "8",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 87,
+                "name": "Safari",
+                "platform": "OS X 10.10",
+                "version": "8",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 114,
+                "name": "Safari",
+                "platform": "iOS 9",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 111,
+                "name": "Safari",
+                "platform": "OS X 10.11",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 112,
+                "name": "Apple ATS",
+                "platform": "iOS 9",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 92,
+                "name": "Yahoo Slurp",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 93,
+                "name": "YandexBot",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            }
+          ]
+        },
+        "heartbleed": false,
+        "heartbeat": true,
+        "openSslCcs": 1,
+        "poodle": false,
+        "poodleTls": 1,
+        "fallbackScsv": true,
+        "freak": false,
+        "hasSct": 0,
+        "logjam": false,
+        "preloadChecks": [
+          {
+            "sourceName": "Chrome",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563160619
+          },
+          {
+            "sourceName": "Edge",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "Firefox",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "IE",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "Tor",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449564840968
+          }
+        ]
+      }
+    },
+    {
+      "ipAddress": "199.59.150.7",
+      "serverName": "r-199-59-150-7.twttr.com",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 71512,
+      "eta": 143,
+      "delegation": 3,
+      "details": {
+        "hostStartTime": 1449565224262,
+        "key": {
+          "size": 2048,
+          "alg": "RSA",
+          "debianFlaw": false,
+          "strength": 2048
+        },
+        "cert": {
+          "subject": "CN\u003dtwitter.com,OU\u003dTwitter Security,O\u003dTwitter, Inc.,STREET\u003d1355 Market St,L\u003dSan Francisco,ST\u003dCalifornia,2.5.4.17\u003d#0c0a39343130332d31333037,C\u003dUS,2.5.4.5\u003d#130734333337343436,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#0c0844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+          "commonNames": [
+            "twitter.com"
+          ],
+          "altNames": [
+            "twitter.com",
+            "www.twitter.com"
+          ],
+          "notBefore": 1410307200000,
+          "notAfter": 1462838399000,
+          "issuerSubject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+          "issuerLabel": "Symantec Class 3 EV SSL CA - G3",
+          "sigAlg": "SHA256withRSA",
+          "revocationInfo": 3,
+          "crlURIs": [
+            "http://sr.symcb.com/sr.crl"
+          ],
+          "ocspURIs": [
+            "http://sr.symcd.com"
+          ],
+          "revocationStatus": 2,
+          "crlRevocationStatus": 2,
+          "ocspRevocationStatus": 2,
+          "sgc": 0,
+          "validationType": "E",
+          "issues": 0,
+          "sct": false,
+          "sha1Hash": "add53f6680fe66e383cbac3e60922e3b4c412bed",
+          "pinSha256": "IOxdCvvGwOLhlVbFNSs8YHim7ZVVwvqGgkBP21Up060\u003d"
+        },
+        "chain": {
+          "certs": [
+            {
+              "subject": "CN\u003dtwitter.com,OU\u003dTwitter Security,O\u003dTwitter, Inc.,STREET\u003d1355 Market St,L\u003dSan Francisco,ST\u003dCalifornia,2.5.4.17\u003d#0c0a39343130332d31333037,C\u003dUS,2.5.4.5\u003d#130734333337343436,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#0c0844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+              "label": "twitter.com",
+              "notBefore": 1410307200000,
+              "notAfter": 1462838399000,
+              "issuerSubject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+              "issuerLabel": "Symantec Class 3 EV SSL CA - G3",
+              "sigAlg": "SHA256withRSA",
+              "issues": 0,
+              "keyAlg": "RSA",
+              "keySize": 2048,
+              "keyStrength": 2048,
+              "revocationStatus": 2,
+              "crlRevocationStatus": 2,
+              "ocspRevocationStatus": 2,
+              "sha1Hash": "add53f6680fe66e383cbac3e60922e3b4c412bed",
+              "pinSha256": "IOxdCvvGwOLhlVbFNSs8YHim7ZVVwvqGgkBP21Up060\u003d",
+              "raw": "-----BEGIN CERTIFICATE-----\nMIIFjTCCBHWgAwIBAgIQGshet67DUTzYDYU4Xs/SCDANBgkqhkiG9w0BAQsFADB3MQswCQYDVQQG\r\nEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRy\r\ndXN0IE5ldHdvcmsxKDAmBgNVBAMTH1N5bWFudGVjIENsYXNzIDMgRVYgU1NMIENBIC0gRzMwHhcN\r\nMTQwOTEwMDAwMDAwWhcNMTYwNTA5MjM1OTU5WjCCARIxEzARBgsrBgEEAYI3PAIBAxMCVVMxGTAX\r\nBgsrBgEEAYI3PAIBAgwIRGVsYXdhcmUxHTAbBgNVBA8TFFByaXZhdGUgT3JnYW5pemF0aW9uMRAw\r\nDgYDVQQFEwc0MzM3NDQ2MQswCQYDVQQGEwJVUzETMBEGA1UEEQwKOTQxMDMtMTMwNzETMBEGA1UE\r\nCAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzEXMBUGA1UECQwOMTM1NSBNYXJr\r\nZXQgU3QxFjAUBgNVBAoMDVR3aXR0ZXIsIEluYy4xGTAXBgNVBAsMEFR3aXR0ZXIgU2VjdXJpdHkx\r\nFDASBgNVBAMMC3R3aXR0ZXIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA46xZ\r\nNAfcEfgcyrMPk0SKVDR2kGrAIgC+lZraWDxsODGioh87ZOKd4PXCqweQW3z++YiMap1pO+AjZbcR\r\n1uiI1j5ti+3K6lgL/k2/KpXKuyG7ztbiEAIRIWgm95J+nKOAsYLX5aaghkdCGsZbBNnDtbKbONSh\r\nbTu92AXwUZu9lXd/6QKOYKN6ZSBSI9uNASckwgBmDRRms1IrzGtbpUQv4kBt2iGhklpXEtNHAe/p\r\n36/GkYwhr3dlEzYcY3otBeZjxQvYOems8jv/ncWnRgpuGmYQHkrnuseJeR+u8fOEA8rnUIoZY788\r\nIBB4xfRTPH1eDa+WcImSuX+aGQz2eGqPcwIDAQABo4IBdjCCAXIwJwYDVR0RBCAwHoILdHdpdHRl\r\nci5jb22CD3d3dy50d2l0dGVyLmNvbTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUE\r\nFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwZgYDVR0gBF8wXTBbBgtghkgBhvhFAQcXBjBMMCMGCCsG\r\nAQUFBwIBFhdodHRwczovL2Quc3ltY2IuY29tL2NwczAlBggrBgEFBQcCAjAZGhdodHRwczovL2Qu\r\nc3ltY2IuY29tL3JwYTAfBgNVHSMEGDAWgBQBWavn3ToLWaZkY9bPIAdX1ZHnajArBgNVHR8EJDAi\r\nMCCgHqAchhpodHRwOi8vc3Iuc3ltY2IuY29tL3NyLmNybDBXBggrBgEFBQcBAQRLMEkwHwYIKwYB\r\nBQUHMAGGE2h0dHA6Ly9zci5zeW1jZC5jb20wJgYIKwYBBQUHMAKGGmh0dHA6Ly9zci5zeW1jYi5j\r\nb20vc3IuY3J0MA0GCSqGSIb3DQEBCwUAA4IBAQDRU2jp1iDQVnoQgLjpfgDJntU1SqLSoBaK4vvr\r\nloh3wm419Kepqtw1e8Z9Xjz2yVug0ViufZbnVAJcaRtWkiatBizBWv9Z84qMlDINGkLRbrwcvajG\r\nCAEbcxeTKDCuzk1OLUu/Iq+aYTJ6qGglGTxt+2fMKT9b9dGvTL9no2DE3bD7g1VttSypfTStsAjH\r\nLPDLTNgrefTp2n9uwN5VfNbWR8/EkO9PvuvJPQVxa17HNo1PDDxHg6URiCL4RuD4mxr+6aLfkIEQ\r\ncfOXnLdpYHcg1oeF7lp30pLs2V0fMTs64ls10ZI220TUedlsAySHXcOGxhDi6mV8z7jvwjECVXIS\r\n-----END CERTIFICATE-----\n"
+            },
+            {
+              "subject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+              "label": "Symantec Class 3 EV SSL CA - G3",
+              "notBefore": 1383177600000,
+              "notAfter": 1698710399000,
+              "issuerSubject": "CN\u003dVeriSign Class 3 Public Primary Certification Authority - G5,OU\u003d(c) 2006 VeriSign, Inc. - For authorized use only,OU\u003dVeriSign Trust Network,O\u003dVeriSign, Inc.,C\u003dUS",
+              "issuerLabel": "VeriSign Class 3 Public Primary Certification Authority - G5",
+              "sigAlg": "SHA256withRSA",
+              "issues": 0,
+              "keyAlg": "RSA",
+              "keySize": 2048,
+              "keyStrength": 2048,
+              "revocationStatus": 2,
+              "crlRevocationStatus": 2,
+              "ocspRevocationStatus": 2,
+              "sha1Hash": "e3fc0ad84f2f5a83ed6f86f567f8b14b40dcbf12",
+              "pinSha256": "gMxWOrX4PMQesK9qFNbYBxjBfjUvlkn/vN1n+L9lE5E\u003d",
+              "raw": "-----BEGIN CERTIFICATE-----\nMIIFKzCCBBOgAwIBAgIQfuFKb2/v8tN/P61lTTratDANBgkqhkiG9w0BAQsFADCByjELMAkGA1UE\r\nBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBO\r\nZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVk\r\nIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRp\r\nZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMTMxMDMxMDAwMDAwWhcNMjMxMDMwMjM1OTU5WjB3\r\nMQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5\r\nbWFudGVjIFRydXN0IE5ldHdvcmsxKDAmBgNVBAMTH1N5bWFudGVjIENsYXNzIDMgRVYgU1NMIENB\r\nIC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYoWV0I+grZOIy1zM3PY71NBZI\r\n3U9/hxz4RCMTjvsR2ERaGHGOYBYmkpv9FwvhcXBC/r/6HMCqo6e1cej/GIP23xAKE2LIPZyn3i4/\r\nDNkd5y77Ks7Imn+Hv9hMBBUyydHMlXGgTihPhNk1++OGb5RT5nKKY2cuvmn2926OnGAE6yn6xEdC\r\n0niY4+wLpZLct5q9gGQrOHw4CVtm9i2VeoayNC6FnpAOX7ddpFFyRnATv2fytqdNFB5suVPuIxpO\r\njUhVQ0GxiXVqQCjFfd3SbtICGS97JJRL6/EaqZvjI5rq+jOrCiy39GAI3Z8czd0tAWaAr7MvKR0j\r\nuIrhoXAHDDQPAgMBAAGjggFdMIIBWTAvBggrBgEFBQcBAQQjMCEwHwYIKwYBBQUHMAGGE2h0dHA6\r\nLy9zMi5zeW1jYi5jb20wEgYDVR0TAQH/BAgwBgEB/wIBADBlBgNVHSAEXjBcMFoGBFUdIAAwUjAm\r\nBggrBgEFBQcCARYaaHR0cDovL3d3dy5zeW1hdXRoLmNvbS9jcHMwKAYIKwYBBQUHAgIwHBoaaHR0\r\ncDovL3d3dy5zeW1hdXRoLmNvbS9ycGEwMAYDVR0fBCkwJzAloCOgIYYfaHR0cDovL3MxLnN5bWNi\r\nLmNvbS9wY2EzLWc1LmNybDAOBgNVHQ8BAf8EBAMCAQYwKQYDVR0RBCIwIKQeMBwxGjAYBgNVBAMT\r\nEVN5bWFudGVjUEtJLTEtNTMzMB0GA1UdDgQWBBQBWavn3ToLWaZkY9bPIAdX1ZHnajAfBgNVHSME\r\nGDAWgBR/02Wnwt3su/AwCfNDOfoCrzMxMzANBgkqhkiG9w0BAQsFAAOCAQEAQgFVe9AWGl1Y6Lub\r\nqE3X89frE5SG1n8hC0e8V5uSXU8FnzikEHzPg74GQ0aNCLxq1xCm+quvL2GoY/Jl339MiBKIT7Np\r\n2f8nwAqXkY9W+4nEqLuSLRtzsMarNvSWbCAI7woeZiRFT2cAQMgHVHQzO6atuyOfZu2iRHA0+w7q\r\nAf3PeHTfp61Vt19N9tY/4IbOJMdCqRMURDVLtt/JYKwMf9mTIUvunORJApjTYHtcvNUwLwfORELE\r\nC5n+5p/8sHiGUW3RLJ3GlvuFgrsEL/digO9i2n/2DqyQuFa9eT/ygG6j2bkPXToHHZGThkspTOHc\r\nteHgM52zyzaRS/6htO7w+Q\u003d\u003d\r\n-----END CERTIFICATE-----\n"
+            }
+          ],
+          "issues": 0
+        },
+        "protocols": [
+          {
+            "id": 769,
+            "name": "TLS",
+            "version": "1.0"
+          },
+          {
+            "id": 770,
+            "name": "TLS",
+            "version": "1.1"
+          },
+          {
+            "id": 771,
+            "name": "TLS",
+            "version": "1.2"
+          }
+        ],
+        "suites": {
+          "list": [
+            {
+              "id": 49199,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49191,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49171,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49200,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49192,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49172,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 156,
+              "name": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+              "cipherStrength": 128
+            },
+            {
+              "id": 60,
+              "name": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+              "cipherStrength": 128
+            },
+            {
+              "id": 47,
+              "name": "TLS_RSA_WITH_AES_128_CBC_SHA",
+              "cipherStrength": 128
+            },
+            {
+              "id": 157,
+              "name": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+              "cipherStrength": 256
+            },
+            {
+              "id": 61,
+              "name": "TLS_RSA_WITH_AES_256_CBC_SHA256",
+              "cipherStrength": 256
+            },
+            {
+              "id": 53,
+              "name": "TLS_RSA_WITH_AES_256_CBC_SHA",
+              "cipherStrength": 256
+            },
+            {
+              "id": 49170,
+              "name": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+              "cipherStrength": 168,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 10,
+              "name": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+              "cipherStrength": 168
+            }
+          ],
+          "preference": true
+        },
+        "serverSignature": "tsa_a",
+        "prefixDelegation": true,
+        "nonPrefixDelegation": true,
+        "vulnBeast": true,
+        "renegSupport": 6,
+        "stsStatus": "present",
+        "stsResponseHeader": "max-age\u003d631138519",
+        "stsMaxAge": 631138519,
+        "stsSubdomains": false,
+        "stsPreload": false,
+        "sessionResumption": 0,
+        "compressionMethods": 0,
+        "supportsNpn": true,
+        "npnProtocols": "h2 spdy/3.1 http/1.1",
+        "sessionTickets": 1,
+        "ocspStapling": false,
+        "sniRequired": false,
+        "httpStatusCode": 200,
+        "supportsRc4": false,
+        "rc4WithModern": false,
+        "rc4Only": false,
+        "forwardSecrecy": 2,
+        "sims": {
+          "results": [
+            {
+              "client": {
+                "id": 56,
+                "name": "Android",
+                "version": "2.3.7",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 58,
+                "name": "Android",
+                "version": "4.0.4",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 59,
+                "name": "Android",
+                "version": "4.1.1",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 60,
+                "name": "Android",
+                "version": "4.2.2",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 61,
+                "name": "Android",
+                "version": "4.3",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 62,
+                "name": "Android",
+                "version": "4.4.2",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 88,
+                "name": "Android",
+                "version": "5.0.0",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 94,
+                "name": "Baidu",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 91,
+                "name": "BingPreview",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 115,
+                "name": "Chrome",
+                "platform": "OS X",
+                "version": "45",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 84,
+                "name": "Firefox",
+                "platform": "Win 7",
+                "version": "31.3.0 ESR",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 116,
+                "name": "Firefox",
+                "platform": "OS X",
+                "version": "41",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 97,
+                "name": "Googlebot",
+                "version": "Feb 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 100,
+                "name": "IE",
+                "platform": "XP",
+                "version": "6",
+                "isReference": false
+              },
+              "errorCode": 1,
+              "attempts": 1
+            },
+            {
+              "client": {
+                "id": 19,
+                "name": "IE",
+                "platform": "Vista",
+                "version": "7",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 101,
+                "name": "IE",
+                "platform": "XP",
+                "version": "8",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 10
+            },
+            {
+              "client": {
+                "id": 113,
+                "name": "IE",
+                "platform": "Win 7",
+                "version": "8-10",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 102,
+                "name": "IE",
+                "platform": "Win 7",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 104,
+                "name": "IE",
+                "platform": "Win 8.1",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 64,
+                "name": "IE",
+                "platform": "Win Phone 8.0",
+                "version": "10",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 65,
+                "name": "IE",
+                "platform": "Win Phone 8.1",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 106,
+                "name": "IE",
+                "platform": "Win Phone 8.1 Update",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 107,
+                "name": "IE",
+                "platform": "Win 10",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 110,
+                "name": "Edge",
+                "platform": "Win 10",
+                "version": "",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 25,
+                "name": "Java",
+                "version": "6u45",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 26,
+                "name": "Java",
+                "version": "7u25",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 86,
+                "name": "Java",
+                "version": "8u31",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 27,
+                "name": "OpenSSL",
+                "version": "0.9.8y",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 99,
+                "name": "OpenSSL",
+                "version": "1.0.1l",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 98,
+                "name": "OpenSSL",
+                "version": "1.0.2",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 32,
+                "name": "Safari",
+                "platform": "OS X 10.6.8",
+                "version": "5.1.9",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 33,
+                "name": "Safari",
+                "platform": "iOS 6.0.1",
+                "version": "6",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 34,
+                "name": "Safari",
+                "platform": "OS X 10.8.4",
+                "version": "6.0.4",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 63,
+                "name": "Safari",
+                "platform": "iOS 7.1",
+                "version": "7",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 35,
+                "name": "Safari",
+                "platform": "OS X 10.9",
+                "version": "7",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 85,
+                "name": "Safari",
+                "platform": "iOS 8.4",
+                "version": "8",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 87,
+                "name": "Safari",
+                "platform": "OS X 10.10",
+                "version": "8",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 114,
+                "name": "Safari",
+                "platform": "iOS 9",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 111,
+                "name": "Safari",
+                "platform": "OS X 10.11",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 112,
+                "name": "Apple ATS",
+                "platform": "iOS 9",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 92,
+                "name": "Yahoo Slurp",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 93,
+                "name": "YandexBot",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            }
+          ]
+        },
+        "heartbleed": false,
+        "heartbeat": true,
+        "openSslCcs": 1,
+        "poodle": false,
+        "poodleTls": 1,
+        "fallbackScsv": true,
+        "freak": false,
+        "hasSct": 0,
+        "logjam": false,
+        "preloadChecks": [
+          {
+            "sourceName": "Chrome",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563160619
+          },
+          {
+            "sourceName": "Edge",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "Firefox",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "IE",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "Tor",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449564840968
+          }
+        ]
+      }
+    },
+    {
+      "ipAddress": "199.59.149.230",
+      "serverName": "www4.twitter.com",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 71463,
+      "eta": 142,
+      "delegation": 3,
+      "details": {
+        "hostStartTime": 1449565224262,
+        "key": {
+          "size": 2048,
+          "alg": "RSA",
+          "debianFlaw": false,
+          "strength": 2048
+        },
+        "cert": {
+          "subject": "CN\u003dtwitter.com,OU\u003dTwitter Security,O\u003dTwitter, Inc.,STREET\u003d1355 Market St,L\u003dSan Francisco,ST\u003dCalifornia,2.5.4.17\u003d#0c0a39343130332d31333037,C\u003dUS,2.5.4.5\u003d#130734333337343436,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#0c0844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+          "commonNames": [
+            "twitter.com"
+          ],
+          "altNames": [
+            "twitter.com",
+            "www.twitter.com"
+          ],
+          "notBefore": 1410307200000,
+          "notAfter": 1462838399000,
+          "issuerSubject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+          "issuerLabel": "Symantec Class 3 EV SSL CA - G3",
+          "sigAlg": "SHA256withRSA",
+          "revocationInfo": 3,
+          "crlURIs": [
+            "http://sr.symcb.com/sr.crl"
+          ],
+          "ocspURIs": [
+            "http://sr.symcd.com"
+          ],
+          "revocationStatus": 2,
+          "crlRevocationStatus": 2,
+          "ocspRevocationStatus": 2,
+          "sgc": 0,
+          "validationType": "E",
+          "issues": 0,
+          "sct": false,
+          "sha1Hash": "add53f6680fe66e383cbac3e60922e3b4c412bed",
+          "pinSha256": "IOxdCvvGwOLhlVbFNSs8YHim7ZVVwvqGgkBP21Up060\u003d"
+        },
+        "chain": {
+          "certs": [
+            {
+              "subject": "CN\u003dtwitter.com,OU\u003dTwitter Security,O\u003dTwitter, Inc.,STREET\u003d1355 Market St,L\u003dSan Francisco,ST\u003dCalifornia,2.5.4.17\u003d#0c0a39343130332d31333037,C\u003dUS,2.5.4.5\u003d#130734333337343436,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#0c0844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+              "label": "twitter.com",
+              "notBefore": 1410307200000,
+              "notAfter": 1462838399000,
+              "issuerSubject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+              "issuerLabel": "Symantec Class 3 EV SSL CA - G3",
+              "sigAlg": "SHA256withRSA",
+              "issues": 0,
+              "keyAlg": "RSA",
+              "keySize": 2048,
+              "keyStrength": 2048,
+              "revocationStatus": 2,
+              "crlRevocationStatus": 2,
+              "ocspRevocationStatus": 2,
+              "sha1Hash": "add53f6680fe66e383cbac3e60922e3b4c412bed",
+              "pinSha256": "IOxdCvvGwOLhlVbFNSs8YHim7ZVVwvqGgkBP21Up060\u003d",
+              "raw": "-----BEGIN CERTIFICATE-----\nMIIFjTCCBHWgAwIBAgIQGshet67DUTzYDYU4Xs/SCDANBgkqhkiG9w0BAQsFADB3MQswCQYDVQQG\r\nEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRy\r\ndXN0IE5ldHdvcmsxKDAmBgNVBAMTH1N5bWFudGVjIENsYXNzIDMgRVYgU1NMIENBIC0gRzMwHhcN\r\nMTQwOTEwMDAwMDAwWhcNMTYwNTA5MjM1OTU5WjCCARIxEzARBgsrBgEEAYI3PAIBAxMCVVMxGTAX\r\nBgsrBgEEAYI3PAIBAgwIRGVsYXdhcmUxHTAbBgNVBA8TFFByaXZhdGUgT3JnYW5pemF0aW9uMRAw\r\nDgYDVQQFEwc0MzM3NDQ2MQswCQYDVQQGEwJVUzETMBEGA1UEEQwKOTQxMDMtMTMwNzETMBEGA1UE\r\nCAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzEXMBUGA1UECQwOMTM1NSBNYXJr\r\nZXQgU3QxFjAUBgNVBAoMDVR3aXR0ZXIsIEluYy4xGTAXBgNVBAsMEFR3aXR0ZXIgU2VjdXJpdHkx\r\nFDASBgNVBAMMC3R3aXR0ZXIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA46xZ\r\nNAfcEfgcyrMPk0SKVDR2kGrAIgC+lZraWDxsODGioh87ZOKd4PXCqweQW3z++YiMap1pO+AjZbcR\r\n1uiI1j5ti+3K6lgL/k2/KpXKuyG7ztbiEAIRIWgm95J+nKOAsYLX5aaghkdCGsZbBNnDtbKbONSh\r\nbTu92AXwUZu9lXd/6QKOYKN6ZSBSI9uNASckwgBmDRRms1IrzGtbpUQv4kBt2iGhklpXEtNHAe/p\r\n36/GkYwhr3dlEzYcY3otBeZjxQvYOems8jv/ncWnRgpuGmYQHkrnuseJeR+u8fOEA8rnUIoZY788\r\nIBB4xfRTPH1eDa+WcImSuX+aGQz2eGqPcwIDAQABo4IBdjCCAXIwJwYDVR0RBCAwHoILdHdpdHRl\r\nci5jb22CD3d3dy50d2l0dGVyLmNvbTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUE\r\nFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwZgYDVR0gBF8wXTBbBgtghkgBhvhFAQcXBjBMMCMGCCsG\r\nAQUFBwIBFhdodHRwczovL2Quc3ltY2IuY29tL2NwczAlBggrBgEFBQcCAjAZGhdodHRwczovL2Qu\r\nc3ltY2IuY29tL3JwYTAfBgNVHSMEGDAWgBQBWavn3ToLWaZkY9bPIAdX1ZHnajArBgNVHR8EJDAi\r\nMCCgHqAchhpodHRwOi8vc3Iuc3ltY2IuY29tL3NyLmNybDBXBggrBgEFBQcBAQRLMEkwHwYIKwYB\r\nBQUHMAGGE2h0dHA6Ly9zci5zeW1jZC5jb20wJgYIKwYBBQUHMAKGGmh0dHA6Ly9zci5zeW1jYi5j\r\nb20vc3IuY3J0MA0GCSqGSIb3DQEBCwUAA4IBAQDRU2jp1iDQVnoQgLjpfgDJntU1SqLSoBaK4vvr\r\nloh3wm419Kepqtw1e8Z9Xjz2yVug0ViufZbnVAJcaRtWkiatBizBWv9Z84qMlDINGkLRbrwcvajG\r\nCAEbcxeTKDCuzk1OLUu/Iq+aYTJ6qGglGTxt+2fMKT9b9dGvTL9no2DE3bD7g1VttSypfTStsAjH\r\nLPDLTNgrefTp2n9uwN5VfNbWR8/EkO9PvuvJPQVxa17HNo1PDDxHg6URiCL4RuD4mxr+6aLfkIEQ\r\ncfOXnLdpYHcg1oeF7lp30pLs2V0fMTs64ls10ZI220TUedlsAySHXcOGxhDi6mV8z7jvwjECVXIS\r\n-----END CERTIFICATE-----\n"
+            },
+            {
+              "subject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+              "label": "Symantec Class 3 EV SSL CA - G3",
+              "notBefore": 1383177600000,
+              "notAfter": 1698710399000,
+              "issuerSubject": "CN\u003dVeriSign Class 3 Public Primary Certification Authority - G5,OU\u003d(c) 2006 VeriSign, Inc. - For authorized use only,OU\u003dVeriSign Trust Network,O\u003dVeriSign, Inc.,C\u003dUS",
+              "issuerLabel": "VeriSign Class 3 Public Primary Certification Authority - G5",
+              "sigAlg": "SHA256withRSA",
+              "issues": 0,
+              "keyAlg": "RSA",
+              "keySize": 2048,
+              "keyStrength": 2048,
+              "revocationStatus": 2,
+              "crlRevocationStatus": 2,
+              "ocspRevocationStatus": 2,
+              "sha1Hash": "e3fc0ad84f2f5a83ed6f86f567f8b14b40dcbf12",
+              "pinSha256": "gMxWOrX4PMQesK9qFNbYBxjBfjUvlkn/vN1n+L9lE5E\u003d",
+              "raw": "-----BEGIN CERTIFICATE-----\nMIIFKzCCBBOgAwIBAgIQfuFKb2/v8tN/P61lTTratDANBgkqhkiG9w0BAQsFADCByjELMAkGA1UE\r\nBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBO\r\nZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVk\r\nIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRp\r\nZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMTMxMDMxMDAwMDAwWhcNMjMxMDMwMjM1OTU5WjB3\r\nMQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5\r\nbWFudGVjIFRydXN0IE5ldHdvcmsxKDAmBgNVBAMTH1N5bWFudGVjIENsYXNzIDMgRVYgU1NMIENB\r\nIC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYoWV0I+grZOIy1zM3PY71NBZI\r\n3U9/hxz4RCMTjvsR2ERaGHGOYBYmkpv9FwvhcXBC/r/6HMCqo6e1cej/GIP23xAKE2LIPZyn3i4/\r\nDNkd5y77Ks7Imn+Hv9hMBBUyydHMlXGgTihPhNk1++OGb5RT5nKKY2cuvmn2926OnGAE6yn6xEdC\r\n0niY4+wLpZLct5q9gGQrOHw4CVtm9i2VeoayNC6FnpAOX7ddpFFyRnATv2fytqdNFB5suVPuIxpO\r\njUhVQ0GxiXVqQCjFfd3SbtICGS97JJRL6/EaqZvjI5rq+jOrCiy39GAI3Z8czd0tAWaAr7MvKR0j\r\nuIrhoXAHDDQPAgMBAAGjggFdMIIBWTAvBggrBgEFBQcBAQQjMCEwHwYIKwYBBQUHMAGGE2h0dHA6\r\nLy9zMi5zeW1jYi5jb20wEgYDVR0TAQH/BAgwBgEB/wIBADBlBgNVHSAEXjBcMFoGBFUdIAAwUjAm\r\nBggrBgEFBQcCARYaaHR0cDovL3d3dy5zeW1hdXRoLmNvbS9jcHMwKAYIKwYBBQUHAgIwHBoaaHR0\r\ncDovL3d3dy5zeW1hdXRoLmNvbS9ycGEwMAYDVR0fBCkwJzAloCOgIYYfaHR0cDovL3MxLnN5bWNi\r\nLmNvbS9wY2EzLWc1LmNybDAOBgNVHQ8BAf8EBAMCAQYwKQYDVR0RBCIwIKQeMBwxGjAYBgNVBAMT\r\nEVN5bWFudGVjUEtJLTEtNTMzMB0GA1UdDgQWBBQBWavn3ToLWaZkY9bPIAdX1ZHnajAfBgNVHSME\r\nGDAWgBR/02Wnwt3su/AwCfNDOfoCrzMxMzANBgkqhkiG9w0BAQsFAAOCAQEAQgFVe9AWGl1Y6Lub\r\nqE3X89frE5SG1n8hC0e8V5uSXU8FnzikEHzPg74GQ0aNCLxq1xCm+quvL2GoY/Jl339MiBKIT7Np\r\n2f8nwAqXkY9W+4nEqLuSLRtzsMarNvSWbCAI7woeZiRFT2cAQMgHVHQzO6atuyOfZu2iRHA0+w7q\r\nAf3PeHTfp61Vt19N9tY/4IbOJMdCqRMURDVLtt/JYKwMf9mTIUvunORJApjTYHtcvNUwLwfORELE\r\nC5n+5p/8sHiGUW3RLJ3GlvuFgrsEL/digO9i2n/2DqyQuFa9eT/ygG6j2bkPXToHHZGThkspTOHc\r\nteHgM52zyzaRS/6htO7w+Q\u003d\u003d\r\n-----END CERTIFICATE-----\n"
+            }
+          ],
+          "issues": 0
+        },
+        "protocols": [
+          {
+            "id": 769,
+            "name": "TLS",
+            "version": "1.0"
+          },
+          {
+            "id": 770,
+            "name": "TLS",
+            "version": "1.1"
+          },
+          {
+            "id": 771,
+            "name": "TLS",
+            "version": "1.2"
+          }
+        ],
+        "suites": {
+          "list": [
+            {
+              "id": 49199,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49191,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49171,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49200,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49192,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49172,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 156,
+              "name": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+              "cipherStrength": 128
+            },
+            {
+              "id": 60,
+              "name": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+              "cipherStrength": 128
+            },
+            {
+              "id": 47,
+              "name": "TLS_RSA_WITH_AES_128_CBC_SHA",
+              "cipherStrength": 128
+            },
+            {
+              "id": 157,
+              "name": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+              "cipherStrength": 256
+            },
+            {
+              "id": 61,
+              "name": "TLS_RSA_WITH_AES_256_CBC_SHA256",
+              "cipherStrength": 256
+            },
+            {
+              "id": 53,
+              "name": "TLS_RSA_WITH_AES_256_CBC_SHA",
+              "cipherStrength": 256
+            },
+            {
+              "id": 49170,
+              "name": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+              "cipherStrength": 168,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 10,
+              "name": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+              "cipherStrength": 168
+            }
+          ],
+          "preference": true
+        },
+        "serverSignature": "tsa_a",
+        "prefixDelegation": true,
+        "nonPrefixDelegation": true,
+        "vulnBeast": true,
+        "renegSupport": 6,
+        "stsStatus": "present",
+        "stsResponseHeader": "max-age\u003d631138519",
+        "stsMaxAge": 631138519,
+        "stsSubdomains": false,
+        "stsPreload": false,
+        "sessionResumption": 0,
+        "compressionMethods": 0,
+        "supportsNpn": true,
+        "npnProtocols": "h2 spdy/3.1 http/1.1",
+        "sessionTickets": 1,
+        "ocspStapling": false,
+        "sniRequired": false,
+        "httpStatusCode": 200,
+        "supportsRc4": false,
+        "rc4WithModern": false,
+        "rc4Only": false,
+        "forwardSecrecy": 2,
+        "sims": {
+          "results": [
+            {
+              "client": {
+                "id": 56,
+                "name": "Android",
+                "version": "2.3.7",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 58,
+                "name": "Android",
+                "version": "4.0.4",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 59,
+                "name": "Android",
+                "version": "4.1.1",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 60,
+                "name": "Android",
+                "version": "4.2.2",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 61,
+                "name": "Android",
+                "version": "4.3",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 62,
+                "name": "Android",
+                "version": "4.4.2",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 88,
+                "name": "Android",
+                "version": "5.0.0",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 94,
+                "name": "Baidu",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 91,
+                "name": "BingPreview",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 115,
+                "name": "Chrome",
+                "platform": "OS X",
+                "version": "45",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 84,
+                "name": "Firefox",
+                "platform": "Win 7",
+                "version": "31.3.0 ESR",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 116,
+                "name": "Firefox",
+                "platform": "OS X",
+                "version": "41",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 97,
+                "name": "Googlebot",
+                "version": "Feb 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 100,
+                "name": "IE",
+                "platform": "XP",
+                "version": "6",
+                "isReference": false
+              },
+              "errorCode": 1,
+              "attempts": 1
+            },
+            {
+              "client": {
+                "id": 19,
+                "name": "IE",
+                "platform": "Vista",
+                "version": "7",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 101,
+                "name": "IE",
+                "platform": "XP",
+                "version": "8",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 10
+            },
+            {
+              "client": {
+                "id": 113,
+                "name": "IE",
+                "platform": "Win 7",
+                "version": "8-10",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 102,
+                "name": "IE",
+                "platform": "Win 7",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 104,
+                "name": "IE",
+                "platform": "Win 8.1",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 64,
+                "name": "IE",
+                "platform": "Win Phone 8.0",
+                "version": "10",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 65,
+                "name": "IE",
+                "platform": "Win Phone 8.1",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 106,
+                "name": "IE",
+                "platform": "Win Phone 8.1 Update",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 107,
+                "name": "IE",
+                "platform": "Win 10",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 110,
+                "name": "Edge",
+                "platform": "Win 10",
+                "version": "",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 25,
+                "name": "Java",
+                "version": "6u45",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 26,
+                "name": "Java",
+                "version": "7u25",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 86,
+                "name": "Java",
+                "version": "8u31",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 27,
+                "name": "OpenSSL",
+                "version": "0.9.8y",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 99,
+                "name": "OpenSSL",
+                "version": "1.0.1l",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 98,
+                "name": "OpenSSL",
+                "version": "1.0.2",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 32,
+                "name": "Safari",
+                "platform": "OS X 10.6.8",
+                "version": "5.1.9",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 33,
+                "name": "Safari",
+                "platform": "iOS 6.0.1",
+                "version": "6",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 34,
+                "name": "Safari",
+                "platform": "OS X 10.8.4",
+                "version": "6.0.4",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 63,
+                "name": "Safari",
+                "platform": "iOS 7.1",
+                "version": "7",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 35,
+                "name": "Safari",
+                "platform": "OS X 10.9",
+                "version": "7",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 85,
+                "name": "Safari",
+                "platform": "iOS 8.4",
+                "version": "8",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 87,
+                "name": "Safari",
+                "platform": "OS X 10.10",
+                "version": "8",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 114,
+                "name": "Safari",
+                "platform": "iOS 9",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 111,
+                "name": "Safari",
+                "platform": "OS X 10.11",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 112,
+                "name": "Apple ATS",
+                "platform": "iOS 9",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 92,
+                "name": "Yahoo Slurp",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 93,
+                "name": "YandexBot",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            }
+          ]
+        },
+        "heartbleed": false,
+        "heartbeat": true,
+        "openSslCcs": 1,
+        "poodle": false,
+        "poodleTls": 1,
+        "fallbackScsv": true,
+        "freak": false,
+        "hasSct": 0,
+        "logjam": false,
+        "preloadChecks": [
+          {
+            "sourceName": "Chrome",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563160619
+          },
+          {
+            "sourceName": "Edge",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "Firefox",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "IE",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "Tor",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449564840968
+          }
+        ]
+      }
+    },
+    {
+      "ipAddress": "199.59.148.10",
+      "serverName": "r-199-59-148-10.twttr.com",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 71541,
+      "eta": 141,
+      "delegation": 3,
+      "details": {
+        "hostStartTime": 1449565224262,
+        "key": {
+          "size": 2048,
+          "alg": "RSA",
+          "debianFlaw": false,
+          "strength": 2048
+        },
+        "cert": {
+          "subject": "CN\u003dtwitter.com,OU\u003dTwitter Security,O\u003dTwitter, Inc.,STREET\u003d1355 Market St,L\u003dSan Francisco,ST\u003dCalifornia,2.5.4.17\u003d#0c0a39343130332d31333037,C\u003dUS,2.5.4.5\u003d#130734333337343436,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#0c0844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+          "commonNames": [
+            "twitter.com"
+          ],
+          "altNames": [
+            "twitter.com",
+            "www.twitter.com"
+          ],
+          "notBefore": 1410307200000,
+          "notAfter": 1462838399000,
+          "issuerSubject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+          "issuerLabel": "Symantec Class 3 EV SSL CA - G3",
+          "sigAlg": "SHA256withRSA",
+          "revocationInfo": 3,
+          "crlURIs": [
+            "http://sr.symcb.com/sr.crl"
+          ],
+          "ocspURIs": [
+            "http://sr.symcd.com"
+          ],
+          "revocationStatus": 2,
+          "crlRevocationStatus": 2,
+          "ocspRevocationStatus": 2,
+          "sgc": 0,
+          "validationType": "E",
+          "issues": 0,
+          "sct": false,
+          "sha1Hash": "add53f6680fe66e383cbac3e60922e3b4c412bed",
+          "pinSha256": "IOxdCvvGwOLhlVbFNSs8YHim7ZVVwvqGgkBP21Up060\u003d"
+        },
+        "chain": {
+          "certs": [
+            {
+              "subject": "CN\u003dtwitter.com,OU\u003dTwitter Security,O\u003dTwitter, Inc.,STREET\u003d1355 Market St,L\u003dSan Francisco,ST\u003dCalifornia,2.5.4.17\u003d#0c0a39343130332d31333037,C\u003dUS,2.5.4.5\u003d#130734333337343436,2.5.4.15\u003d#131450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.2\u003d#0c0844656c6177617265,1.3.6.1.4.1.311.60.2.1.3\u003d#13025553",
+              "label": "twitter.com",
+              "notBefore": 1410307200000,
+              "notAfter": 1462838399000,
+              "issuerSubject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+              "issuerLabel": "Symantec Class 3 EV SSL CA - G3",
+              "sigAlg": "SHA256withRSA",
+              "issues": 0,
+              "keyAlg": "RSA",
+              "keySize": 2048,
+              "keyStrength": 2048,
+              "revocationStatus": 2,
+              "crlRevocationStatus": 2,
+              "ocspRevocationStatus": 2,
+              "sha1Hash": "add53f6680fe66e383cbac3e60922e3b4c412bed",
+              "pinSha256": "IOxdCvvGwOLhlVbFNSs8YHim7ZVVwvqGgkBP21Up060\u003d",
+              "raw": "-----BEGIN CERTIFICATE-----\nMIIFjTCCBHWgAwIBAgIQGshet67DUTzYDYU4Xs/SCDANBgkqhkiG9w0BAQsFADB3MQswCQYDVQQG\r\nEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRy\r\ndXN0IE5ldHdvcmsxKDAmBgNVBAMTH1N5bWFudGVjIENsYXNzIDMgRVYgU1NMIENBIC0gRzMwHhcN\r\nMTQwOTEwMDAwMDAwWhcNMTYwNTA5MjM1OTU5WjCCARIxEzARBgsrBgEEAYI3PAIBAxMCVVMxGTAX\r\nBgsrBgEEAYI3PAIBAgwIRGVsYXdhcmUxHTAbBgNVBA8TFFByaXZhdGUgT3JnYW5pemF0aW9uMRAw\r\nDgYDVQQFEwc0MzM3NDQ2MQswCQYDVQQGEwJVUzETMBEGA1UEEQwKOTQxMDMtMTMwNzETMBEGA1UE\r\nCAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzEXMBUGA1UECQwOMTM1NSBNYXJr\r\nZXQgU3QxFjAUBgNVBAoMDVR3aXR0ZXIsIEluYy4xGTAXBgNVBAsMEFR3aXR0ZXIgU2VjdXJpdHkx\r\nFDASBgNVBAMMC3R3aXR0ZXIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA46xZ\r\nNAfcEfgcyrMPk0SKVDR2kGrAIgC+lZraWDxsODGioh87ZOKd4PXCqweQW3z++YiMap1pO+AjZbcR\r\n1uiI1j5ti+3K6lgL/k2/KpXKuyG7ztbiEAIRIWgm95J+nKOAsYLX5aaghkdCGsZbBNnDtbKbONSh\r\nbTu92AXwUZu9lXd/6QKOYKN6ZSBSI9uNASckwgBmDRRms1IrzGtbpUQv4kBt2iGhklpXEtNHAe/p\r\n36/GkYwhr3dlEzYcY3otBeZjxQvYOems8jv/ncWnRgpuGmYQHkrnuseJeR+u8fOEA8rnUIoZY788\r\nIBB4xfRTPH1eDa+WcImSuX+aGQz2eGqPcwIDAQABo4IBdjCCAXIwJwYDVR0RBCAwHoILdHdpdHRl\r\nci5jb22CD3d3dy50d2l0dGVyLmNvbTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUE\r\nFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwZgYDVR0gBF8wXTBbBgtghkgBhvhFAQcXBjBMMCMGCCsG\r\nAQUFBwIBFhdodHRwczovL2Quc3ltY2IuY29tL2NwczAlBggrBgEFBQcCAjAZGhdodHRwczovL2Qu\r\nc3ltY2IuY29tL3JwYTAfBgNVHSMEGDAWgBQBWavn3ToLWaZkY9bPIAdX1ZHnajArBgNVHR8EJDAi\r\nMCCgHqAchhpodHRwOi8vc3Iuc3ltY2IuY29tL3NyLmNybDBXBggrBgEFBQcBAQRLMEkwHwYIKwYB\r\nBQUHMAGGE2h0dHA6Ly9zci5zeW1jZC5jb20wJgYIKwYBBQUHMAKGGmh0dHA6Ly9zci5zeW1jYi5j\r\nb20vc3IuY3J0MA0GCSqGSIb3DQEBCwUAA4IBAQDRU2jp1iDQVnoQgLjpfgDJntU1SqLSoBaK4vvr\r\nloh3wm419Kepqtw1e8Z9Xjz2yVug0ViufZbnVAJcaRtWkiatBizBWv9Z84qMlDINGkLRbrwcvajG\r\nCAEbcxeTKDCuzk1OLUu/Iq+aYTJ6qGglGTxt+2fMKT9b9dGvTL9no2DE3bD7g1VttSypfTStsAjH\r\nLPDLTNgrefTp2n9uwN5VfNbWR8/EkO9PvuvJPQVxa17HNo1PDDxHg6URiCL4RuD4mxr+6aLfkIEQ\r\ncfOXnLdpYHcg1oeF7lp30pLs2V0fMTs64ls10ZI220TUedlsAySHXcOGxhDi6mV8z7jvwjECVXIS\r\n-----END CERTIFICATE-----\n"
+            },
+            {
+              "subject": "CN\u003dSymantec Class 3 EV SSL CA - G3,OU\u003dSymantec Trust Network,O\u003dSymantec Corporation,C\u003dUS",
+              "label": "Symantec Class 3 EV SSL CA - G3",
+              "notBefore": 1383177600000,
+              "notAfter": 1698710399000,
+              "issuerSubject": "CN\u003dVeriSign Class 3 Public Primary Certification Authority - G5,OU\u003d(c) 2006 VeriSign, Inc. - For authorized use only,OU\u003dVeriSign Trust Network,O\u003dVeriSign, Inc.,C\u003dUS",
+              "issuerLabel": "VeriSign Class 3 Public Primary Certification Authority - G5",
+              "sigAlg": "SHA256withRSA",
+              "issues": 0,
+              "keyAlg": "RSA",
+              "keySize": 2048,
+              "keyStrength": 2048,
+              "revocationStatus": 2,
+              "crlRevocationStatus": 2,
+              "ocspRevocationStatus": 2,
+              "sha1Hash": "e3fc0ad84f2f5a83ed6f86f567f8b14b40dcbf12",
+              "pinSha256": "gMxWOrX4PMQesK9qFNbYBxjBfjUvlkn/vN1n+L9lE5E\u003d",
+              "raw": "-----BEGIN CERTIFICATE-----\nMIIFKzCCBBOgAwIBAgIQfuFKb2/v8tN/P61lTTratDANBgkqhkiG9w0BAQsFADCByjELMAkGA1UE\r\nBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBO\r\nZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVk\r\nIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRp\r\nZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMTMxMDMxMDAwMDAwWhcNMjMxMDMwMjM1OTU5WjB3\r\nMQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5\r\nbWFudGVjIFRydXN0IE5ldHdvcmsxKDAmBgNVBAMTH1N5bWFudGVjIENsYXNzIDMgRVYgU1NMIENB\r\nIC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYoWV0I+grZOIy1zM3PY71NBZI\r\n3U9/hxz4RCMTjvsR2ERaGHGOYBYmkpv9FwvhcXBC/r/6HMCqo6e1cej/GIP23xAKE2LIPZyn3i4/\r\nDNkd5y77Ks7Imn+Hv9hMBBUyydHMlXGgTihPhNk1++OGb5RT5nKKY2cuvmn2926OnGAE6yn6xEdC\r\n0niY4+wLpZLct5q9gGQrOHw4CVtm9i2VeoayNC6FnpAOX7ddpFFyRnATv2fytqdNFB5suVPuIxpO\r\njUhVQ0GxiXVqQCjFfd3SbtICGS97JJRL6/EaqZvjI5rq+jOrCiy39GAI3Z8czd0tAWaAr7MvKR0j\r\nuIrhoXAHDDQPAgMBAAGjggFdMIIBWTAvBggrBgEFBQcBAQQjMCEwHwYIKwYBBQUHMAGGE2h0dHA6\r\nLy9zMi5zeW1jYi5jb20wEgYDVR0TAQH/BAgwBgEB/wIBADBlBgNVHSAEXjBcMFoGBFUdIAAwUjAm\r\nBggrBgEFBQcCARYaaHR0cDovL3d3dy5zeW1hdXRoLmNvbS9jcHMwKAYIKwYBBQUHAgIwHBoaaHR0\r\ncDovL3d3dy5zeW1hdXRoLmNvbS9ycGEwMAYDVR0fBCkwJzAloCOgIYYfaHR0cDovL3MxLnN5bWNi\r\nLmNvbS9wY2EzLWc1LmNybDAOBgNVHQ8BAf8EBAMCAQYwKQYDVR0RBCIwIKQeMBwxGjAYBgNVBAMT\r\nEVN5bWFudGVjUEtJLTEtNTMzMB0GA1UdDgQWBBQBWavn3ToLWaZkY9bPIAdX1ZHnajAfBgNVHSME\r\nGDAWgBR/02Wnwt3su/AwCfNDOfoCrzMxMzANBgkqhkiG9w0BAQsFAAOCAQEAQgFVe9AWGl1Y6Lub\r\nqE3X89frE5SG1n8hC0e8V5uSXU8FnzikEHzPg74GQ0aNCLxq1xCm+quvL2GoY/Jl339MiBKIT7Np\r\n2f8nwAqXkY9W+4nEqLuSLRtzsMarNvSWbCAI7woeZiRFT2cAQMgHVHQzO6atuyOfZu2iRHA0+w7q\r\nAf3PeHTfp61Vt19N9tY/4IbOJMdCqRMURDVLtt/JYKwMf9mTIUvunORJApjTYHtcvNUwLwfORELE\r\nC5n+5p/8sHiGUW3RLJ3GlvuFgrsEL/digO9i2n/2DqyQuFa9eT/ygG6j2bkPXToHHZGThkspTOHc\r\nteHgM52zyzaRS/6htO7w+Q\u003d\u003d\r\n-----END CERTIFICATE-----\n"
+            }
+          ],
+          "issues": 0
+        },
+        "protocols": [
+          {
+            "id": 769,
+            "name": "TLS",
+            "version": "1.0"
+          },
+          {
+            "id": 770,
+            "name": "TLS",
+            "version": "1.1"
+          },
+          {
+            "id": 771,
+            "name": "TLS",
+            "version": "1.2"
+          }
+        ],
+        "suites": {
+          "list": [
+            {
+              "id": 49199,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49191,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49171,
+              "name": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+              "cipherStrength": 128,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49200,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49192,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 49172,
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+              "cipherStrength": 256,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 156,
+              "name": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+              "cipherStrength": 128
+            },
+            {
+              "id": 60,
+              "name": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+              "cipherStrength": 128
+            },
+            {
+              "id": 47,
+              "name": "TLS_RSA_WITH_AES_128_CBC_SHA",
+              "cipherStrength": 128
+            },
+            {
+              "id": 157,
+              "name": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+              "cipherStrength": 256
+            },
+            {
+              "id": 61,
+              "name": "TLS_RSA_WITH_AES_256_CBC_SHA256",
+              "cipherStrength": 256
+            },
+            {
+              "id": 53,
+              "name": "TLS_RSA_WITH_AES_256_CBC_SHA",
+              "cipherStrength": 256
+            },
+            {
+              "id": 49170,
+              "name": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+              "cipherStrength": 168,
+              "ecdhBits": 256,
+              "ecdhStrength": 3072
+            },
+            {
+              "id": 10,
+              "name": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+              "cipherStrength": 168
+            }
+          ],
+          "preference": true
+        },
+        "serverSignature": "tsa_a",
+        "prefixDelegation": true,
+        "nonPrefixDelegation": true,
+        "vulnBeast": true,
+        "renegSupport": 6,
+        "stsStatus": "present",
+        "stsResponseHeader": "max-age\u003d631138519",
+        "stsMaxAge": 631138519,
+        "stsSubdomains": false,
+        "stsPreload": false,
+        "sessionResumption": 0,
+        "compressionMethods": 0,
+        "supportsNpn": true,
+        "npnProtocols": "h2 spdy/3.1 http/1.1",
+        "sessionTickets": 1,
+        "ocspStapling": false,
+        "sniRequired": false,
+        "httpStatusCode": 200,
+        "supportsRc4": false,
+        "rc4WithModern": false,
+        "rc4Only": false,
+        "forwardSecrecy": 2,
+        "sims": {
+          "results": [
+            {
+              "client": {
+                "id": 56,
+                "name": "Android",
+                "version": "2.3.7",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 58,
+                "name": "Android",
+                "version": "4.0.4",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 59,
+                "name": "Android",
+                "version": "4.1.1",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 60,
+                "name": "Android",
+                "version": "4.2.2",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 61,
+                "name": "Android",
+                "version": "4.3",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 62,
+                "name": "Android",
+                "version": "4.4.2",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 88,
+                "name": "Android",
+                "version": "5.0.0",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 94,
+                "name": "Baidu",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 91,
+                "name": "BingPreview",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 115,
+                "name": "Chrome",
+                "platform": "OS X",
+                "version": "45",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 84,
+                "name": "Firefox",
+                "platform": "Win 7",
+                "version": "31.3.0 ESR",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 116,
+                "name": "Firefox",
+                "platform": "OS X",
+                "version": "41",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 97,
+                "name": "Googlebot",
+                "version": "Feb 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 100,
+                "name": "IE",
+                "platform": "XP",
+                "version": "6",
+                "isReference": false
+              },
+              "errorCode": 1,
+              "attempts": 1
+            },
+            {
+              "client": {
+                "id": 19,
+                "name": "IE",
+                "platform": "Vista",
+                "version": "7",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 101,
+                "name": "IE",
+                "platform": "XP",
+                "version": "8",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 10
+            },
+            {
+              "client": {
+                "id": 113,
+                "name": "IE",
+                "platform": "Win 7",
+                "version": "8-10",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 102,
+                "name": "IE",
+                "platform": "Win 7",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 104,
+                "name": "IE",
+                "platform": "Win 8.1",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 64,
+                "name": "IE",
+                "platform": "Win Phone 8.0",
+                "version": "10",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 65,
+                "name": "IE",
+                "platform": "Win Phone 8.1",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 106,
+                "name": "IE",
+                "platform": "Win Phone 8.1 Update",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 107,
+                "name": "IE",
+                "platform": "Win 10",
+                "version": "11",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 110,
+                "name": "Edge",
+                "platform": "Win 10",
+                "version": "",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 25,
+                "name": "Java",
+                "version": "6u45",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 26,
+                "name": "Java",
+                "version": "7u25",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 86,
+                "name": "Java",
+                "version": "8u31",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 27,
+                "name": "OpenSSL",
+                "version": "0.9.8y",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 47
+            },
+            {
+              "client": {
+                "id": 99,
+                "name": "OpenSSL",
+                "version": "1.0.1l",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 98,
+                "name": "OpenSSL",
+                "version": "1.0.2",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 32,
+                "name": "Safari",
+                "platform": "OS X 10.6.8",
+                "version": "5.1.9",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 33,
+                "name": "Safari",
+                "platform": "iOS 6.0.1",
+                "version": "6",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 34,
+                "name": "Safari",
+                "platform": "OS X 10.8.4",
+                "version": "6.0.4",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 769,
+              "suiteId": 49171
+            },
+            {
+              "client": {
+                "id": 63,
+                "name": "Safari",
+                "platform": "iOS 7.1",
+                "version": "7",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 35,
+                "name": "Safari",
+                "platform": "OS X 10.9",
+                "version": "7",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 85,
+                "name": "Safari",
+                "platform": "iOS 8.4",
+                "version": "8",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 87,
+                "name": "Safari",
+                "platform": "OS X 10.10",
+                "version": "8",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49191
+            },
+            {
+              "client": {
+                "id": 114,
+                "name": "Safari",
+                "platform": "iOS 9",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 111,
+                "name": "Safari",
+                "platform": "OS X 10.11",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 112,
+                "name": "Apple ATS",
+                "platform": "iOS 9",
+                "version": "9",
+                "isReference": true
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 92,
+                "name": "Yahoo Slurp",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            },
+            {
+              "client": {
+                "id": 93,
+                "name": "YandexBot",
+                "version": "Jan 2015",
+                "isReference": false
+              },
+              "errorCode": 0,
+              "attempts": 1,
+              "protocolId": 771,
+              "suiteId": 49199
+            }
+          ]
+        },
+        "heartbleed": false,
+        "heartbeat": true,
+        "openSslCcs": 1,
+        "poodle": false,
+        "poodleTls": 1,
+        "fallbackScsv": true,
+        "freak": false,
+        "hasSct": 0,
+        "logjam": false,
+        "preloadChecks": [
+          {
+            "sourceName": "Chrome",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563160619
+          },
+          {
+            "sourceName": "Edge",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "Firefox",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "IE",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449563161120
+          },
+          {
+            "sourceName": "Tor",
+            "hostname": "twitter.com",
+            "status": "present",
+            "sourceTime": 1449564840968
+          }
+        ]
+      }
+    }
+  ]
+}
